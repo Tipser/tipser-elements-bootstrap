@@ -1,33 +1,84 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.te-logo {
+  height: 30px;
   pointer-events: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header {
+  background-color:#f3f3f3;
+  height: 50px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  position: fixed;
+  width: 100vw;
+  z-index: 10;
+}
+
+.menu {
+  list-style: none;
+  padding-left: 0;
+}
+
+.menu-item {
+  padding-left: 35px;
+  text-transform: uppercase;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.navigation {
+  display: block;
+  padding: 5px 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.horizontal-menu {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.horizontal-item {
+  padding: 0;
+  margin: 0 20px 0 0;
+  color: #fefefe;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: color .4s ease;
+}
+
+.te-cart {
+  margin-left: auto;  
+}
+.cart-icon .tipser-icon-cart {
+  color: black;
+  font-size: 20px;
+}
+
+.link {
+  color: blue;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+footer {
+  height: 300px;
+  background: #eee;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid #e0e0e0;
+}
+
+.footer-text {
+  color: #bbbbbb;
+  font-size: calc(10px + 2vmin);
 }
