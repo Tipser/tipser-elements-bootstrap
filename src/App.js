@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { TipserElement, TipserProduct, CartIcon, TipserContextProvider } from '@tipser/tipser-elements';
+import { TipserElement, TipserProduct, CartIcon, TipserElementsProvider } from '@tipser/tipser-elements';
 import logo from './logo.svg';
 import './App.css';
 
@@ -15,7 +15,7 @@ let tipserConfig = {
 class App extends Component {
   render() {
     return (
-      <TipserContextProvider value = { tipserConfig }>   
+      <TipserElementsProvider value = { tipserConfig }>
           <div>
               <header className="header">
                   <nav className="navigation">
@@ -65,7 +65,7 @@ class App extends Component {
                   <span className="footer-text">This is the footer</span>
               </footer>
           </div>
-      </TipserContextProvider>
+      </TipserElementsProvider>
     );
   }
 }
