@@ -15,7 +15,7 @@ let tipserConfig = {
 class App extends Component {
   render() {
     return (
-      <TipserElementsProvider value = { tipserConfig }>
+      <TipserElementsProvider context={tipserConfig}>
           <div>
               <header className="header">
                   <nav className="navigation">
