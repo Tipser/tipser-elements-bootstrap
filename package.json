@@ -2,8 +2,10 @@
   "name": "tipser-elements-bootstrap",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://tipser.github.io/tipser-elements-bootstrap",
   "dependencies": {
     "@tipser/tipser-elements": "^1.0.39",
+    "gh-pages": "^2.0.1",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-scripts": "2.1.8"
@@ -12,7 +14,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
