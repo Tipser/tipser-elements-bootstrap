@@ -920,9 +920,9 @@
     "@svgr/plugin-svgo" "^4.0.3"
     loader-utils "^1.1.0"
 
-"@tipser/tipser-elements@^1.0.39":
-  version "1.0.39"
-  resolved "https://registry.yarnpkg.com/@tipser/tipser-elements/-/tipser-elements-1.0.39.tgz#d1f9378035df60674f1696b8eca1a3ec69ce74c1"
+"@tipser/tipser-elements@^1.0.45":
+  version "1.0.45"
+  resolved "https://registry.yarnpkg.com/@tipser/tipser-elements/-/tipser-elements-1.0.45.tgz#c96a673ee3b286fe56370250dd174d3e9d1b4bb9"
   dependencies:
     "@tipser/tipser-sdk" "^1.1.7"
     "@types/qs" "^6.5.1"
