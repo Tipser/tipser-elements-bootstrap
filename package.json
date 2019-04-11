@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://tipser.github.io/tipser-elements-bootstrap",
   "dependencies": {
-    "@tipser/tipser-elements": "^1.0.45",
+    "@tipser/tipser-elements": "^1.0.46",
     "gh-pages": "^2.0.1",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",

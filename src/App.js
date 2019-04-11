@@ -1,21 +1,20 @@
 import React, { Component } from 'react';
-import { TipserElement, TipserProduct, CartIcon, TipserElementsProvider, CollectionComponent } from '@tipser/tipser-elements';
+import { TipserElement, TipserProduct, CartIcon, TipserElementsProvider, CollectionComponent, ShopComponent } from '@tipser/tipser-elements';
 import logo from './logo.svg';
 import './App.css';
 
 
 let tipserConfig = {
-    posId: '59e86b79b8f3f60a94ecd26a',
     lang: 'en',
-    env: 'prod',
     primaryColor: 'red'
 };
-
 
 class App extends Component {
   render() {
     return (
-      <TipserElementsProvider context={tipserConfig}>
+      <TipserElementsProvider
+              posId={"5075d7715c3d090a90585e87"}
+              config={tipserConfig}>
           <div>
               <header className="header">
                   <nav className="navigation">
@@ -43,6 +42,16 @@ class App extends Component {
                                   Tipser Elements documentation
                               </a>
                           </li>
+                          <li className="horizontal-item">
+                              <a
+                                  className="link"
+                                  href="https://github.com/Tipser/tipser-elements-react-bootstrap"
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                              >
+                                  GitHub repo of this page
+                              </a>
+                          </li>
                           <li className="horizontal-item te-cart">
                               {/* Inserting the Tipser cart Icon */}
                               <CartIcon/>
@@ -63,6 +72,8 @@ class App extends Component {
                   <CollectionComponent collectionId="5beaaa0653e83f0001e18577" />
 
                   <CollectionComponent collectionId="5bec3f0e8d1736000154335a" />
+
+                  <ShopComponent />
               </main>
               {/* Inserting a custom footer */}
               <footer>
