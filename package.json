@@ -2,7 +2,7 @@
   "name": "tipser-elements-bootstrap",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://tipser.github.io/tipser-elements-bootstrap",
+  "homepage": "https://tipser.github.io/tipser-elements-react-bootstrap",
   "dependencies": {
     "@tipser/tipser-elements": "^1.0.46",
     "gh-pages": "^2.0.1",
