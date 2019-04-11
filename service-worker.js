@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/tipser-elements-bootstrap/precache-manifest.35a51fb50c48ccfddb10f65540900f5b.js"
+  "/tipser-elements-react-bootstrap/precache-manifest.e2acca35a6b24830ab336eab671cbf7c.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/tipser-elements-bootstrap/index.html", {
+workbox.routing.registerNavigationRoute("/tipser-elements-react-bootstrap/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
