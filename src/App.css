@@ -1,3 +1,7 @@
+.te-collection .te-product-card {
+  width: auto;
+}
+
 .te-logo {
   height: 30px;
   pointer-events: none;
@@ -11,6 +15,7 @@
   position: fixed;
   width: 100vw;
   z-index: 10;
+  top: 0;
 }
 
 .menu {
