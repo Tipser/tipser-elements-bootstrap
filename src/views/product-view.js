@@ -1,7 +1,7 @@
 import * as React from 'react';
-import { connect, PromiseState } from 'react-refetch'
+import { connect } from 'react-refetch';
 
-import { TipserElement, TipserProduct, TipserProductComponent, CollectionComponent } from '@tipser/tipser-elements';
+import { TipserProduct, CollectionComponent } from '@tipser/tipser-elements';
 import { Header } from '../components/header';
 
 class ProductViewComponent extends React.Component {
@@ -13,7 +13,7 @@ class ProductViewComponent extends React.Component {
         return <React.Fragment>
             <Header></Header>
             <main>
-            <TipserProduct productId={productId} />
+                <TipserProduct productId={productId} />
             </main>
             <h2>Similar products</h2>
             {similarProductsFetch.fulfilled && <div>
