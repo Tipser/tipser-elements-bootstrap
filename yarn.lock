@@ -7384,6 +7384,7 @@ react-motion@^0.5.2:
 react-refetch@^2.0.3:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/react-refetch/-/react-refetch-2.0.3.tgz#eba490b0bd03bb27fca296800614954341e45f33"
+  integrity sha512-B9Pkgawb3YZdDNpY/VPF/Ukd+YBI9h17gYjd3IqRDyZGAvI5Q6vKe5IdYk+7cF1u7jhkM5rbpU27C+PCf9LY6A==
   dependencies:
     hoist-non-react-statics "^2.2.1"
     invariant "^2.0.0"
