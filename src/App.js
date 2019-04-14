@@ -15,7 +15,7 @@ class App extends Component {
 
     render() {
         return (
-            <Router>
+            <Router basename={process.env.PUBLIC_URL}>
                 <TipserElementsProvider
                     posId={"5075d7715c3d090a90585e87"}
                     config={tipserConfig}>
