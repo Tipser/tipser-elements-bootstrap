@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "71ad4a33d34b62f1ddd2",
+    "revision": "6ec96b7d2ac4a7c33b37",
     "url": "/tipser-elements-react-bootstrap/static/css/main.9840adb1.chunk.css"
   },
   {
-    "revision": "71ad4a33d34b62f1ddd2",
-    "url": "/tipser-elements-react-bootstrap/static/js/main.460d5207.chunk.js"
+    "revision": "6ec96b7d2ac4a7c33b37",
+    "url": "/tipser-elements-react-bootstrap/static/js/main.3df07664.chunk.js"
   },
   {
     "revision": "15bab69485746f0b7eaa",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/tipser-elements-react-bootstrap/static/media/logo.03714909.svg"
   },
   {
-    "revision": "b24a95907a1ec272d9e2185c10fba513",
+    "revision": "f863bddd2de08c5684d7f91bbd79c829",
     "url": "/tipser-elements-react-bootstrap/index.html"
   }
 ];
