@@ -4,6 +4,7 @@ import { TipserElementsProvider } from '@tipser/tipser-elements';
 import { ComponentsView } from './views/components-view';
 import { ProductView } from './views/product-view';
 import { NotFoundView } from './views/not-found-view';
+import { CassalView } from './views/cassal-view';
 import './App.css';
 import createHashHistory from 'history/createHashHistory';
     
@@ -23,6 +24,7 @@ class App extends Component {
                     posId={"5075d7715c3d090a90585e87"}
                     config={tipserConfig}>
                     <Switch>
+                        <Route path="/cassal" component={CassalView} />
                         <Route path="/product/:productId" component={ProductView} />
                         <Route path="/" component={ComponentsView} />
                         <Route component={NotFoundView} />
