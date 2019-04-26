@@ -21,7 +21,7 @@ export class ComponentsView extends React.Component {
 
                 <CollectionComponent collectionId="5bec3f0e8d1736000154335a" />
 
-                {/* <ShopComponent /> */}
+                 <ShopComponent />
             </main>
             {/* Inserting a custom footer */}
             <footer>
