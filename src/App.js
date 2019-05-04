@@ -11,7 +11,13 @@ const hashHistory = createHashHistory({ basename: process.env.PUBLIC_URL });
 
 let tipserConfig = {
     lang: 'en',
-    primaryColor: 'red'
+    primaryColor: 'red',
+    useDefaultErrorHandler: true,
+    eventsHandlers: {
+        onError: (error) => {
+            console.log(error)
+        }
+    }
 };
 
 class App extends Component {
