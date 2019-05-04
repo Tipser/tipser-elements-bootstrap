@@ -927,10 +927,10 @@
     "@svgr/plugin-svgo" "^4.0.3"
     loader-utils "^1.1.0"
 
-"@tipser/tipser-elements@^1.0.52":
-  version "1.0.52"
-  resolved "https://registry.yarnpkg.com/@tipser/tipser-elements/-/tipser-elements-1.0.52.tgz#6dcfe9c329d454bba4379b45efef30f8d0cc1ce2"
-  integrity sha512-tgMBxRB4N78aI1+Y8VqYc1mgcMu86poXAjgNXSR3bc2+iv4KeRZubFcrsYRWmFEC4fqM81yMXEEITs5nb67/DA==
+"@tipser/tipser-elements@^1.0.53":
+  version "1.0.53"
+  resolved "https://registry.yarnpkg.com/@tipser/tipser-elements/-/tipser-elements-1.0.53.tgz#7e66d20c2cab33fba035879f483f7a17f1b1b251"
+  integrity sha512-IR3Gtonv0lw9W9+mJsAaJlJ24ueR3O0xGvpIeemKLQ08YqC01sHMc1nG8hV3Zrm2DuGGi2lVCyarYRSNIHS0hg==
   dependencies:
     "@tipser/tipser-sdk" "^1.1.11"
     "@types/qs" "^6.5.1"
