@@ -2,6 +2,7 @@ import * as React from 'react';
 import { Link } from 'react-router-dom';
 import { CartIcon } from '@tipser/tipser-elements';
 import logo from '../logo.svg';
+import './header.css';
 
 export class Header extends React.Component {
 
