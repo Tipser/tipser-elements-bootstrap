@@ -19,7 +19,7 @@ export class ComponentsView extends React.Component {
 
                 <CollectionComponent collectionId="5beaaa0653e83f0001e18577" />
 
-                <CollectionComponent collectionId="5bec3f0e8d1736000154335a" />
+                <CollectionComponent collectionId="594a228e8aa0ce56d8aaad06" />
 
                  <ShopComponent />
             </main>
