@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import { Route, Switch, HashRouter as Router } from 'react-router-dom'
+import { Route, Switch, Router } from 'react-router-dom'
 import { TipserElementsProvider } from '@tipser/tipser-elements';
 import { ComponentsView } from './views/components-view';
 import { ProductView } from './views/product-view';
 import { NotFoundView } from './views/not-found-view';
 import './App.css';
-import createHashHistory from 'history/createHashHistory';
-    
+import { createHashHistory } from 'history';
+
 const hashHistory = createHashHistory({ basename: process.env.PUBLIC_URL });
 
 let tipserConfig = {
