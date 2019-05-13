@@ -8,13 +8,15 @@
     width: 100vw;
     z-index: 10;
     top: 0;
-    padding: 5px;
+    /* padding: 5px; */
     justify-content: center;
   }
   
   .navigation {
-    display: block;
-    padding: 5px 40px 5px 20px;
+    align-items: center;
+    display: flex;
+    padding: 0 40px 0 20px;
+    position: relative;
   }
   
 .horizontal-menu {
@@ -24,7 +26,7 @@
     justify-content: flex-start;
     flex-wrap: nowrap;
     align-items: center;
-    margin: 0;
+    margin: 0 10px;
     padding: 0;
     font-size: 0.7em;
     overflow-x: auto;
@@ -39,7 +41,7 @@
   .horizontal-menu .horizontal-item {
     display: inline-block;
     padding: 0;
-    margin: 0 20px 0 0;
+    margin: 10px;
     background-color: #fefefe;
     font-weight: 500;
     font-size: 1.2em;
@@ -63,20 +65,20 @@
     font-size: 20px;
   }
   
-  .te-cart {
+  .navigation .cart-icon {
     position: absolute;
-    right: 10px;
+    right: 20px;
     top: 50%;
     transform: translateY(-50%);
+  }
+
+  .te-logo {
+    height: 30px;
+    width: 30px;
   }
 
   @media (min-width: 990px) {
     .horizontal-menu {
         white-space: normal;
-        margin: 5px;
-    }
-
-    .horizontal-menu .horizontal-item {
-        margin: 5px;
     }
   }

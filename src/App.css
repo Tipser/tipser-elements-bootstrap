@@ -2,9 +2,8 @@ body {
   font-size: 16px;
 }
 
-.te-logo {
-  height: 30px;
-  pointer-events: none;
+.tipser-element a {
+  color: #fff;
 }
 
 .menu {
@@ -16,14 +15,6 @@ body {
   padding-left: 35px;
   text-transform: uppercase;
   color: white;
-}
-
-.te-cart {
-  margin-left: auto;  
-}
-.cart-icon .tipser-icon-cart {
-  color: black;
-  font-size: 20px;
 }
 
 .link {
