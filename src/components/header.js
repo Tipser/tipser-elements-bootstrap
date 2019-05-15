@@ -2,17 +2,15 @@ import * as React from 'react';
 import { Link } from 'react-router-dom';
 import { CartIcon } from '@tipser/tipser-elements';
 import logo from '../logo.svg';
+import './header.css';
 
 export class Header extends React.Component {
 
     render() {
         return <header className="header">
             <nav className="navigation">
+                <Link className="te-logo" to="/"><img src={logo} alt="logo" /></Link>
                 <ul className="horizontal-menu">
-                    <li className="horizontal-item">
-                        <Link to="/"><img src={logo} className="te-logo" alt="logo" /></Link>
-                    </li>
-
                     <li className="horizontal-item">
                         <Link to="/product/5a1ad987b301420bbce8e976">Example product #1</Link>
                     </li>
@@ -49,11 +47,9 @@ export class Header extends React.Component {
                             GitHub repo of this page
                         </a>
                     </li>
-                    <li className="horizontal-item te-cart">
-                        {/* Inserting the Tipser cart Icon */}
-                        <CartIcon />
-                    </li>
                 </ul>
+                {/* Inserting the Tipser cart Icon */}
+                <CartIcon />
             </nav>
         </header>
     }

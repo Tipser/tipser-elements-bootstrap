@@ -1,17 +1,9 @@
-.te-logo {
-  height: 30px;
-  pointer-events: none;
+body {
+  font-size: 16px;
 }
 
-.header {
-  background-color:#f3f3f3;
-  height: 50px;
-  display: flex;
-  flex-direction: column;
-  position: fixed;
-  width: 100vw;
-  z-index: 10;
-  top: 0;
+.tipser-element a {
+  color: #fff;
 }
 
 .menu {
@@ -23,41 +15,6 @@
   padding-left: 35px;
   text-transform: uppercase;
   color: white;
-}
-
-.navigation {
-  display: block;
-  padding: 5px 20px;
-}
-
-.horizontal-menu {
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  flex-wrap: nowrap;
-  align-items: center;
-  margin: 0;
-  padding: 0;
-}
-
-.horizontal-item {
-  padding: 0;
-  margin: 0 20px 0 0;
-  color: #fefefe;
-  text-decoration: none;
-  font-weight: 500;
-  font-size: 1.2em;
-  cursor: pointer;
-  transition: color .4s ease;
-}
-
-.te-cart {
-  margin-left: auto;  
-}
-.cart-icon .tipser-icon-cart {
-  color: black;
-  font-size: 20px;
 }
 
 .link {
