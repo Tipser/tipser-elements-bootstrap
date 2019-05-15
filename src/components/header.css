@@ -34,7 +34,7 @@
     white-space: nowrap;
   }
 
-  ::-webkit-scrollbar { 
+  .horizontal-menu::-webkit-scrollbar { 
     display: none; 
   }
   
