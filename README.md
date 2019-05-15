@@ -22,5 +22,5 @@ The page will reload if you make edits.<br>
 In the project directory, you can run:
 
 ```
-npm deploy
+npm run deploy
 ```
