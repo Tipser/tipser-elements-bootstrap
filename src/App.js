@@ -11,7 +11,7 @@ const hashHistory = createHashHistory({ basename: process.env.PUBLIC_URL });
 
 let tipserConfig = {
     lang: 'en',
-    primaryColor: 'red',
+    primaryColor: '#da000d',
     useDefaultErrorHandler: true,
     eventsHandlers: {
         onError: (error) => {
@@ -30,7 +30,7 @@ class App extends Component {
         return (
             <Router history={hashHistory}>
                 <TipserElementsProvider
-                    posId={"5075d7715c3d090a90585e87"}
+                    posId={"5c8bb99d3efbd00001562c29"}
                     config={tipserConfig}>
                     <Switch>
                         <Route path="/product/:productId" component={ProductView} />
