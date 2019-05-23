@@ -1,15 +1,9 @@
 import * as React from "react";
-import {
-  TipserElement,
-  TipserProduct,
-  CartIcon,
-  CollectionComponent,
-  ShopComponent
-} from "@tipser/tipser-elements";
+import { TipserElement, Product, Cart, Collection, Store } from '@tipser/tipser-elements';
 import { Header } from "../components/header";
 
 export class ComponentsView extends React.Component {
-    
+
   render() {
     const styleMedium = {
         width: "980px",
@@ -37,31 +31,31 @@ export class ComponentsView extends React.Component {
           <TipserElement id="2OeW1Ab8lKNcUq6dVUh79" />
 
           {/* Inserting a product using the productId as prop  */}
-          <TipserProduct productId="5ba2334a781baa0001ccdffc" />
+          <Product productId="5ba2334a781baa0001ccdffc" />
 
           <div style={styleMedium}>
             <h3>Container width 980px</h3>
-            <TipserProduct productId="5aafd24f9d25801d54d41132" />
+            <Product productId="5aafd24f9d25801d54d41132" />
           </div>
           <div style={styleSmall}>
             <h3>Container width 767px</h3>
-            <TipserProduct productId="5aafd24f9d25801d54d41132" />
+            <Product productId="5aafd24f9d25801d54d41132" />
           </div>
           <div style={styleXS}>
             <h3>Container width 400px</h3>
-            <TipserProduct productId="5aafd24f9d25801d54d41132" />
+            <Product productId="5aafd24f9d25801d54d41132" />
           </div>
 
           {/* Inserting an elment from Contentful taking the content Id as the prop. This example renders a page, consisting of other components */}
           <TipserElement id="1larHZb8TeMQiqmi4W8CIS" />
 
-          <CollectionComponent collectionId="5beaaa0653e83f0001e18577" />
+          <Collection collectionId="5beaaa0653e83f0001e18577" />
 
-          <CollectionComponent collectionId="5bec3f0e8d1736000154335a" />
+          <Collection collectionId="5bec3f0e8d1736000154335a" />
 
-          <CollectionComponent collectionId="594a228e8aa0ce56d8aaad06" />
+          <Collection collectionId="594a228e8aa0ce56d8aaad06" />
 
-          <ShopComponent />
+          <Store />
         </main>
         {/* Inserting a custom footer */}
         <footer>
