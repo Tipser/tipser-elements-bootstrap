@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { Link } from 'react-router-dom';
-import { CartIcon } from '@tipser/tipser-elements';
+import { Cart } from '@tipser/tipser-elements';
 import logo from '../logo.svg';
 import './header.css';
 
@@ -49,7 +49,7 @@ export class Header extends React.Component {
                     </li>
                 </ul>
                 {/* Inserting the Tipser cart Icon */}
-                <CartIcon />
+                <Cart />
             </nav>
         </header>
     }
