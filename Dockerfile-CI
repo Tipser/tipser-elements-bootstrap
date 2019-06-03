@@ -1,0 +1,14 @@
+# syntax = docker/dockerfile:experimental
+FROM node:10-alpine as deps
+RUN apk add --no-cache git openssh-client
+WORKDIR /app
+COPY package.json package-lock.json tipser-elements.latest ./
+RUN npm install
+RUN npm list @tipser/tipser-elements
+
+FROM deps as deploy
+COPY . .
+RUN mkdir ~/.ssh && mv ./id_rsa ~/.ssh && chmod 600 ~/.ssh/id_rsa && \
+    git config --global user.email "jenkins@tipser.com" &&  git config --global user.name "Jenkins" && \
+    echo -e 'Host *\n\tStrictHostKeyChecking no\n\tUserKnownHostsFile=/dev/null' > ~/.ssh/config
+RUN npm run deploy
