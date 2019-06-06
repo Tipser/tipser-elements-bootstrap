@@ -2,7 +2,7 @@
 FROM node:10-alpine as deps
 RUN apk add --no-cache git openssh-client
 WORKDIR /app
-COPY package.json package-lock.json tipser-elements.latest ./
+COPY package.json tipser-elements.latest ./
 RUN npm install
 RUN npm list @tipser/tipser-elements
 
