@@ -40,3 +40,12 @@ footer {
   color: #bbbbbb;
   font-size: calc(10px + 2vmin);
 }
+
+.main{
+  margin-top: 64px;
+}
+
+.container{
+  max-width: 1024px;
+  margin: 0 auto;
+}
