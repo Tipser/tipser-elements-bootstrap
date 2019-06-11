@@ -36,6 +36,8 @@ node {
                     sudo docker build -f "${dockerFileName}" --target deps .
                 """
             }
+
+            
             withCredentials([sshUserPrivateKey(credentialsId: 'jenkins_tipser-bot_tipser_com', keyFileVariable: 'checkout_key', passphraseVariable: '', usernameVariable: '')]) {
                 stage('Deploy') {
                     sh """
