@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/tipser-elements-react-bootstrap/precache-manifest.074f6f8a57220cca73235a36707955b4.js"
+  "/tipser-elements-react-bootstrap/precache-manifest.7a2e853fb8d42a0b4cbc5813f2505ff9.js"
 );
 
 workbox.clientsClaim();
