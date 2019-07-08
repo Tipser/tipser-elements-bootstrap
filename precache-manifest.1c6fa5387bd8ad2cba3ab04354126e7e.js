@@ -12,15 +12,15 @@ self.__precacheManifest = [
     "url": "/tipser-elements-react-bootstrap/static/js/main.e0411e68.chunk.js"
   },
   {
-    "revision": "84fbccf263e351927798",
-    "url": "/tipser-elements-react-bootstrap/static/js/2.f597e89e.chunk.js"
+    "revision": "5031f591307acc806879",
+    "url": "/tipser-elements-react-bootstrap/static/js/2.40762853.chunk.js"
   },
   {
     "revision": "5133b4c6b39bc24d05ba",
     "url": "/tipser-elements-react-bootstrap/static/css/main.4030c957.chunk.css"
   },
   {
-    "revision": "199d661eae5166913f0e476633f159d3",
+    "revision": "7514113e1efce805ccee149879b30d92",
     "url": "/tipser-elements-react-bootstrap/index.html"
   }
 ];
