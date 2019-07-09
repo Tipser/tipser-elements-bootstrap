@@ -28,7 +28,6 @@ node {
             stage('Check the latest tipser-elements') {
                 sh """
                     npm view @tipser/tipser-elements@latest .version | tee tipser-elements.latest
-                    npm list @tipser/tipser-elements
                 """
             }
 
