@@ -21,12 +21,6 @@ class ProductViewComponent extends React.Component {
                         <h4>Product card compact</h4>
                         <Product productId={productId} viewMode="compact" />
                     </div>
-                    <h2>Similar products</h2>
-                    {similarProductsFetch.fulfilled && (
-                        <div>
-                            <Collection products={similarProductsFetch.value} />
-                        </div>
-                    )}
                 </main>
             </React.Fragment>
         );
