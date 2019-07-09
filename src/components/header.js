@@ -44,6 +44,9 @@ export class Header extends React.Component {
                                 GitHub repo of this page
                             </a>
                         </li>
+                        <li className="horizontal-item">
+                            <Link to="/page/5rFWEeeSaoTMASvLiZHnJ2">Dynamic inventory gallery</Link>
+                        </li>
                     </ul>
                     {/* Inserting the Tipser cart Icon */}
                     <Cart />
