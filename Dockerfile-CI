@@ -2,8 +2,8 @@
 FROM node:10-alpine as deps
 RUN apk add --no-cache git openssh-client
 WORKDIR /app
-COPY package.json tipser-elements.latest ./
-RUN npm install
+COPY package.json tipser-elements.latest package-lock.json ./
+RUN npm ci
 RUN npm list @tipser/tipser-elements
 
 FROM deps as deploy
