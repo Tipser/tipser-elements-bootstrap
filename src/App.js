@@ -8,6 +8,8 @@ import './App.css';
 import { createHashHistory } from 'history';
 import { PageView } from './views/page-view';
 
+import '@tipser/tipser-elements/dist/index.css';
+
 const hashHistory = createHashHistory({ basename: process.env.PUBLIC_URL });
 
 let tipserConfig = {
