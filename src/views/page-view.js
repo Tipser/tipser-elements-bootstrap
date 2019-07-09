@@ -3,6 +3,8 @@ import * as React from 'react';
 import { Page } from '@tipser/tipser-elements';
 import { Header } from '../components/header';
 
+import '@tipser/tipser-elements/dist/index.css';
+
 export class PageView extends React.Component {
     render() {
         const { pageId } = this.props.match.params;
