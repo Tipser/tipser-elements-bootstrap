@@ -4,7 +4,6 @@ properties([
         [$class: 'GitHubPushTrigger']
     ]),
     disableConcurrentBuilds(),
-    overrideIndexTriggers(false),
     buildDiscarder(
         logRotator(
             artifactDaysToKeepStr: '',
