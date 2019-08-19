@@ -31,7 +31,7 @@ class App extends Component {
     render() {
         return (
             <Router history={hashHistory}>
-                <TipserElementsProvider posId={'59f1ef63b8f3f6727cef1d34'} config={tipserConfig} sentryEnv="frontend_dev">
+                <TipserElementsProvider posId={'59f1ef63b8f3f6727cef1d34'} config={tipserConfig} isSentryEnabled={false}>
                     <Switch>
                         <Route path="/product/:productId" component={ProductView} />
                         <Route path="/page/:pageId" component={PageView} />
