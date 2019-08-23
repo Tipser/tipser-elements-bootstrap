@@ -14,6 +14,7 @@ const hashHistory = createHashHistory({ basename: process.env.PUBLIC_URL });
 
 let tipserConfig = {
     lang: 'en',
+    env: 'stage',
     primaryColor: 'red',
     useDefaultErrorHandler: true,
     eventsHandlers: {
