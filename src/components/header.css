@@ -10,15 +10,15 @@
     top: 0;
     /* padding: 5px; */
     justify-content: center;
-  }
-  
-  .navigation {
+}
+
+.navigation {
     align-items: center;
     display: flex;
     padding: 0 40px 0 20px;
     position: relative;
-  }
-  
+}
+
 .horizontal-menu {
     list-style: none;
     display: block;
@@ -32,13 +32,13 @@
     overflow-x: auto;
     width: 100%;
     white-space: nowrap;
-  }
+}
 
-  .horizontal-menu::-webkit-scrollbar { 
-    display: none; 
-  }
-  
-  .horizontal-menu .horizontal-item {
+.horizontal-menu::-webkit-scrollbar {
+    display: none;
+}
+
+.horizontal-menu .horizontal-item {
     display: inline-block;
     padding: 0;
     margin: 10px;
@@ -46,40 +46,40 @@
     font-weight: 500;
     font-size: 1.2em;
     cursor: pointer;
-    transition: color .4s ease;
-  }
-  
-  .horizontal-menu .horizontal-item a {
+    transition: color 0.4s ease;
+}
+
+.horizontal-menu .horizontal-item a {
     color: #333;
     text-decoration: none;
     padding: 5px;
     background-color: #f1f1f1;
-  }
+}
 
-  .horizontal-menu .horizontal-item a:hover {
-     background-color: #dedede;
-  }
+.horizontal-menu .horizontal-item a:hover {
+    background-color: #dedede;
+}
 
-  .cart-icon .tipser-icon-cart {
-    color: black;
-    font-size: 30px;
-  }
-  
-  .navigation .cart-icon {
+.navigation .cart-icon {
     height: 35px;
     position: absolute;
     right: 20px;
     top: 50%;
     transform: translateY(-50%);
-  }
+}
 
-  .te-logo {
+.navigation .cart-icon .tipser-icon-cart {
+    color: black;
+    font-size: 30px;
+}
+
+.te-logo {
     height: 30px;
     width: 30px;
-  }
+}
 
-  @media (min-width: 990px) {
+@media (min-width: 990px) {
     .horizontal-menu {
         white-space: normal;
     }
-  }
+}
