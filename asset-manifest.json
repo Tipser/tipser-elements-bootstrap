@@ -1,14 +1,16 @@
 {
-  "main.css": "/tipser-elements-react-bootstrap/static/css/main.6c316143.chunk.css",
-  "main.js": "/tipser-elements-react-bootstrap/static/js/main.b6ec3746.chunk.js",
-  "main.js.map": "/tipser-elements-react-bootstrap/static/js/main.b6ec3746.chunk.js.map",
+  "main.css": "/tipser-elements-react-bootstrap/static/css/main.9665ac93.chunk.css",
+  "main.js": "/tipser-elements-react-bootstrap/static/js/main.71962688.chunk.js",
+  "main.js.map": "/tipser-elements-react-bootstrap/static/js/main.71962688.chunk.js.map",
   "runtime~main.js": "/tipser-elements-react-bootstrap/static/js/runtime~main.e2fe5a93.js",
   "runtime~main.js.map": "/tipser-elements-react-bootstrap/static/js/runtime~main.e2fe5a93.js.map",
-  "static/js/2.f6dbbd25.chunk.js": "/tipser-elements-react-bootstrap/static/js/2.f6dbbd25.chunk.js",
-  "static/js/2.f6dbbd25.chunk.js.map": "/tipser-elements-react-bootstrap/static/js/2.f6dbbd25.chunk.js.map",
+  "static/css/2.d9225743.chunk.css": "/tipser-elements-react-bootstrap/static/css/2.d9225743.chunk.css",
+  "static/js/2.ba8693ae.chunk.js": "/tipser-elements-react-bootstrap/static/js/2.ba8693ae.chunk.js",
+  "static/js/2.ba8693ae.chunk.js.map": "/tipser-elements-react-bootstrap/static/js/2.ba8693ae.chunk.js.map",
   "index.html": "/tipser-elements-react-bootstrap/index.html",
-  "precache-manifest.a56010c46aae026c9bea37890ac4619c.js": "/tipser-elements-react-bootstrap/precache-manifest.a56010c46aae026c9bea37890ac4619c.js",
+  "precache-manifest.73929236f054fff1a31c627b0a221240.js": "/tipser-elements-react-bootstrap/precache-manifest.73929236f054fff1a31c627b0a221240.js",
   "service-worker.js": "/tipser-elements-react-bootstrap/service-worker.js",
-  "static/css/main.6c316143.chunk.css.map": "/tipser-elements-react-bootstrap/static/css/main.6c316143.chunk.css.map",
+  "static/css/2.d9225743.chunk.css.map": "/tipser-elements-react-bootstrap/static/css/2.d9225743.chunk.css.map",
+  "static/css/main.9665ac93.chunk.css.map": "/tipser-elements-react-bootstrap/static/css/main.9665ac93.chunk.css.map",
   "static/media/logo.svg": "/tipser-elements-react-bootstrap/static/media/logo.03714909.svg"
 }
