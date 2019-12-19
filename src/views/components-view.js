@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { TipserElement, Product, Cart, Collection, Store } from '@tipser/tipser-elements';
+import { TipserElement, Product, Collection, Store } from '@tipser/tipser-elements';
 import { Header } from '../components/header';
 
 export class ComponentsView extends React.Component {
@@ -28,11 +28,11 @@ export class ComponentsView extends React.Component {
                 <main>
                     <h2>Inserting an elment from Contentful taking the content Id as the prop.</h2>
                     <h3>This example renders a page, consisting of other components</h3>
-                    
+
                     <TipserElement id="2OeW1Ab8lKNcUq6dVUh79" />
 
                     <h2>Inserting a product using the productId as prop</h2>
-                    <br/>
+                    <br />
                     <h3>Full width product view</h3>
                     <Product productId="5ba2334a781baa0001ccdffc" />
 
