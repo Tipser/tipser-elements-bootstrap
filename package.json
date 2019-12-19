@@ -4,13 +4,14 @@
     "private": true,
     "homepage": "https://tipser.github.io/tipser-elements-react-bootstrap",
     "dependencies": {
-        "@tipser/tipser-elements": "^1.0.101",
+        "@tipser/tipser-elements": "^1.0.119",
         "gh-pages": "^2.0.1",
+        "history": "^4.10.1",
+        "prettier": "^1.19.1",
         "react": "^16.8.4",
         "react-dom": "^16.8.4",
-        "react-refetch": "^2.0.3",
-        "react-router": "^5.0.0",
-        "react-router-dom": "^5.1.2",
+        "react-router": "^4.3.1",
+        "react-router-dom": "^4.3.1",
         "react-scripts": "2.1.8"
     },
     "scripts": {

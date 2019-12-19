@@ -1,13 +1,11 @@
 import * as React from 'react';
-import { connect } from 'react-refetch';
+import { Product } from '@tipser/tipser-elements';
 
-import { Product, Collection } from '@tipser/tipser-elements';
 import { Header } from '../components/header';
 
-class ProductViewComponent extends React.Component {
+export class ProductView extends React.Component {
     render() {
         const { productId } = this.props.match.params;
-        const { similarProductsFetch } = this.props;
 
         return (
             <React.Fragment>
@@ -26,7 +24,3 @@ class ProductViewComponent extends React.Component {
         );
     }
 }
-
-export const ProductView = connect(props => ({
-    similarProductsFetch: `https://t3-prod-api.tipser.com/v3/products/${props.match.params.productId}/similar?onlyAvailable=true`,
-}))(ProductViewComponent);
