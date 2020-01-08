@@ -45,11 +45,6 @@ export class ComponentsView extends React.Component {
                         <Product productId="5c8c3cb157b6a30001357da9" />
                     </div>
 
-                    {/* Inserting an elment from Contentful taking the content Id as the prop */}
-                    {/*This example renders a page consisting of other components*/}
-                    {/*<h2>Contentful element</h2>*/}
-                    {/*<TipserElement id="1larHZb8TeMQiqmi4W8CIS" />*/}
-
                     {/* Inserting a collection using the collectiontId as prop */}
                     <h2>Collection component</h2>
                     <Collection collectionId="5b1a709d9d25800ff0e9a314" />
