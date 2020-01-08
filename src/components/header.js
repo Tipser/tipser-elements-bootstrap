@@ -14,10 +14,7 @@ export class Header extends React.Component {
                     </Link>
                     <ul className="horizontal-menu">
                         <li className="horizontal-item">
-                            <Link to="/product/5a1ad987b301420bbce8e976">Example product #1</Link>
-                        </li>
-                        <li className="horizontal-item">
-                            <Link to="/product/5a2876ea8aa0cd7044f34e3c">Example product #2</Link>
+                            <Link to="/product/589c82198aa0ce70743b0442">Example product</Link>
                         </li>
                         <li className="horizontal-item">
                             <a className="link" href="https://developers.tipser.com" target="_blank" rel="noopener noreferrer">
@@ -44,9 +41,7 @@ export class Header extends React.Component {
                                 GitHub repo of this page
                             </a>
                         </li>
-                        <li className="horizontal-item">
-                            <Link to="/page/5rFWEeeSaoTMASvLiZHnJ2">Dynamic inventory gallery</Link>
-                        </li>
+
                     </ul>
                     {/* Inserting the Tipser cart Icon */}
                     <Cart />

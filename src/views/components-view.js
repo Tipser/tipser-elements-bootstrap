@@ -26,40 +26,31 @@ export class ComponentsView extends React.Component {
             <React.Fragment>
                 <Header />
                 <main>
-                    <h2>Inserting an elment from Contentful taking the content Id as the prop.</h2>
-                    <h3>This example renders a page, consisting of other components</h3>
-
-                    <TipserElement id="2OeW1Ab8lKNcUq6dVUh79" />
-
-                    <h2>Inserting a product using the productId as prop</h2>
+                    {/* Inserting a product using the productId as prop */}
+                    <h2>Product component</h2>
                     <br />
                     <h3>Full width product view</h3>
-                    <Product productId="5ba2334a781baa0001ccdffc" />
+                    <Product productId="5c8c3cb257b6a30001357db7" />
 
                     <div style={styleMedium}>
                         <h3>Container width 980px</h3>
-                        <Product productId="5aafd24f9d25801d54d41132" />
+                        <Product productId="5c8c3cb157b6a30001357da9" />
                     </div>
                     <div style={styleSmall}>
                         <h3>Container width 767px</h3>
-                        <Product productId="5aafd24f9d25801d54d41132" />
+                        <Product productId="5c8c3cb157b6a30001357da9" />
                     </div>
                     <div style={styleXS}>
                         <h3>Container width 400px</h3>
-                        <Product productId="5aafd24f9d25801d54d41132" />
+                        <Product productId="5c8c3cb157b6a30001357da9" />
                     </div>
 
-                    <h2>Inserting an elment from Contentful taking the content Id as the prop.</h2>
-                    <h3>This example renders a page, consisting of other components</h3>
+                    {/* Inserting a collection using the collectiontId as prop */}
+                    <h2>Collection component</h2>
+                    <Collection collectionId="5b1a709d9d25800ff0e9a314" />
 
-                    <TipserElement id="1larHZb8TeMQiqmi4W8CIS" />
-                    <h2>Inserting a collection using the collectiontId as prop</h2>
-                    <Collection collectionId="5beaaa0653e83f0001e18577" />
-                    <h2>Inserting a collection using the collectiontId as prop</h2>
-                    <Collection collectionId="5bec3f0e8d1736000154335a" />
-                    <h2>Inserting a collection using the collectiontId as prop</h2>
-                    <Collection collectionId="594a228e8aa0ce56d8aaad06" />
-                    <h2>Inserting Store element</h2>
+                    {/* Inserting Store element */}
+                    <h2>Store</h2>
                     <Store />
                 </main>
                 {/* Inserting a custom footer */}
