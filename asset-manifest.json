@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/tipser-elements-react-bootstrap/static/css/main.2767c5c5.chunk.css",
-    "main.js": "/tipser-elements-react-bootstrap/static/js/main.5c9c3282.chunk.js",
-    "main.js.map": "/tipser-elements-react-bootstrap/static/js/main.5c9c3282.chunk.js.map",
+    "main.js": "/tipser-elements-react-bootstrap/static/js/main.e68cad92.chunk.js",
+    "main.js.map": "/tipser-elements-react-bootstrap/static/js/main.e68cad92.chunk.js.map",
     "runtime-main.js": "/tipser-elements-react-bootstrap/static/js/runtime-main.27fbd226.js",
     "runtime-main.js.map": "/tipser-elements-react-bootstrap/static/js/runtime-main.27fbd226.js.map",
     "static/css/2.ab9e86be.chunk.css": "/tipser-elements-react-bootstrap/static/css/2.ab9e86be.chunk.css",
-    "static/js/2.53f95ba0.chunk.js": "/tipser-elements-react-bootstrap/static/js/2.53f95ba0.chunk.js",
-    "static/js/2.53f95ba0.chunk.js.map": "/tipser-elements-react-bootstrap/static/js/2.53f95ba0.chunk.js.map",
+    "static/js/2.a5e685eb.chunk.js": "/tipser-elements-react-bootstrap/static/js/2.a5e685eb.chunk.js",
+    "static/js/2.a5e685eb.chunk.js.map": "/tipser-elements-react-bootstrap/static/js/2.a5e685eb.chunk.js.map",
     "index.html": "/tipser-elements-react-bootstrap/index.html",
-    "precache-manifest.5cb63b4b0a3df40bb52c8ae19251eb27.js": "/tipser-elements-react-bootstrap/precache-manifest.5cb63b4b0a3df40bb52c8ae19251eb27.js",
+    "precache-manifest.9f8f55a1af2051f5408226899ba67c6a.js": "/tipser-elements-react-bootstrap/precache-manifest.9f8f55a1af2051f5408226899ba67c6a.js",
     "service-worker.js": "/tipser-elements-react-bootstrap/service-worker.js",
     "static/css/2.ab9e86be.chunk.css.map": "/tipser-elements-react-bootstrap/static/css/2.ab9e86be.chunk.css.map",
     "static/css/main.2767c5c5.chunk.css.map": "/tipser-elements-react-bootstrap/static/css/main.2767c5c5.chunk.css.map",
-    "static/js/2.53f95ba0.chunk.js.LICENSE": "/tipser-elements-react-bootstrap/static/js/2.53f95ba0.chunk.js.LICENSE",
+    "static/js/2.a5e685eb.chunk.js.LICENSE": "/tipser-elements-react-bootstrap/static/js/2.a5e685eb.chunk.js.LICENSE",
     "static/media/logo.svg": "/tipser-elements-react-bootstrap/static/media/logo.03714909.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.27fbd226.js",
     "static/css/2.ab9e86be.chunk.css",
-    "static/js/2.53f95ba0.chunk.js",
+    "static/js/2.a5e685eb.chunk.js",
     "static/css/main.2767c5c5.chunk.css",
-    "static/js/main.5c9c3282.chunk.js"
+    "static/js/main.e68cad92.chunk.js"
   ]
 }
