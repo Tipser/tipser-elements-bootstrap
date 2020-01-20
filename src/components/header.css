@@ -32,6 +32,7 @@
     overflow-x: auto;
     width: 100%;
     white-space: nowrap;
+    flex: 1 1;
 }
 
 .horizontal-menu::-webkit-scrollbar {
@@ -76,6 +77,20 @@
 .te-logo {
     height: 30px;
     width: 30px;
+}
+
+.side-note {
+    display: flex;
+    flex: 1 0;
+    font-family: Oswald, sans-serif;
+    justify-content: flex-end;
+    margin-right: 45px;
+    text-decoration: none;
+    color: #333;
+}
+
+.side-note:hover {
+    color: #5f5f5f;
 }
 
 @media (min-width: 990px) {
