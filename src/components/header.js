@@ -42,7 +42,9 @@ export class Header extends React.Component {
                         </li>
 
                     </ul>
-                    <a href="https://www.tipser.com/tipser-elements" className="side-note">Powered by Tipser Elements</a>
+                    <a href="https://www.tipser.com/tipser-elements" className="side-note">Powered by Tipser Elements
+                        <img src="https://a.slack-edge.com/production-standard-emoji-assets/10.2/apple-medium/1f680@2x.png" />
+                    </a>
                     {/* Inserting the Tipser cart Icon */}
                     <Cart />
                 </nav>
