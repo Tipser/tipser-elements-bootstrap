@@ -11,6 +11,7 @@ import { PageView } from './views/page-view';
 
 import '@tipser/tipser-elements/dist/index.css';
 import './App.css';
+import { ResponsiveProduct } from './views/responsive-product';
 
 const hashHistory = createHashHistory({ basename: process.env.PUBLIC_URL });
 
@@ -37,6 +38,7 @@ class App extends Component {
             <TipserElementsProvider posId={'59e86b79b8f3f60a94ecd26a'} config={tipserConfig} sentryEnv="frontend_dev">
                 <BrowserRouter history={hashHistory}>
                     <Switch>
+                        <Route path="/responsiveness" component={ResponsiveProduct} />
                         <Route path="/product/:productId" component={ProductView} />
                         <Route path="/page/:pageId" component={PageView} />
                         <Route path="/" component={ComponentsView} />

@@ -1,0 +1,39 @@
+footer{
+    background: #f2f2f2;
+    border-top: 1px solid #dcdee0;
+    margin-top: 25px;
+    padding: 20px 50px;
+}
+
+.footer-links a {
+    text-decoration:none;
+    color:#b8a056;
+    margin:0 10px;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-logo img {
+    max-height: 30px;
+}
+
+.tipser-logo img {
+    width: 120px;
+}
+
+.footer-links {
+    font-size: 0.8em;
+    text-align: center;
+}
+
+.footer-link {
+    display: inline-block;
+}
+
+.footer-copyrights {
+    text-align: center;
+    margin-top:20px;
+}

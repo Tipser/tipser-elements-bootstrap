@@ -17,10 +17,9 @@ export class Header extends React.Component {
                             <Link to="/product/589c82198aa0ce70743b0442">Example product</Link>
                         </li>
                         <li className="horizontal-item">
-                            <a className="link" href="https://developers.tipser.com" target="_blank" rel="noopener noreferrer">
-                                Tipser Developers
-                            </a>
+                            <Link to="/responsiveness">Responsiveness</Link>
                         </li>
+
                         <li className="horizontal-item">
                             <a
                                 className="link"
@@ -28,7 +27,7 @@ export class Header extends React.Component {
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
-                                Tipser Elements documentation
+                                Documentation
                             </a>
                         </li>
                         <li className="horizontal-item">
@@ -38,7 +37,7 @@ export class Header extends React.Component {
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
-                                GitHub repo of this page
+                                GitHub repo
                             </a>
                         </li>
 
