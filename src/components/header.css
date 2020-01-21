@@ -81,18 +81,11 @@
 
 .side-note {
     display: flex;
-    flex: 1 0;
     font-family: Oswald, sans-serif;
     justify-content: flex-end;
     margin-right: 45px;
     text-decoration: none;
     color: #333;
-}
-
-.side-note img {
-    width: 20px;
-    height: 20px;
-    margin-left: 5px;
 }
 
 .side-note:hover {
