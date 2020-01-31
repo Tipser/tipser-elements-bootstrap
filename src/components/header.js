@@ -40,9 +40,9 @@ export class Header extends React.Component {
                                 GitHub repo
                             </a>
                         </li>
-
                     </ul>
-                    <a href="https://www.tipser.com/tipser-elements" className="side-note">Powered by Tipser Elements &#128640;
+                    <a href="https://www.tipser.com/tipser-elements" className="side-note">
+                        Powered by Tipser Elements &#128640;
                     </a>
                     {/* Inserting the Tipser cart Icon */}
                     <Cart />

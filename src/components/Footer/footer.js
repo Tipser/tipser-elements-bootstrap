@@ -9,21 +9,26 @@ export class Footer extends React.Component {
         return (
             <footer>
                 {/*<div className="footer-terms">*/}
-                    <div className="footer-logo">
-                        <Link className="tipser-logo" to="/">
-                            <img  src={logo} alt="tipser logo"  />
-                        </Link>
-                    </div>
-                    <div className="footer-links "><a href="https://www.tipser.com/terms" target="_blank"
-                                                      className="footer-link">Conditions
-                        of Use and Sale</a><a href="https://www.tipser.com/terms-privacy" target="_blank"
-                                              className="footer-link">Privacy notice</a><a
-                        href="https://www.tipser.com/imprint" target="_blank"
-                        className="footer-link">Imprint</a><a href="https://www.tipser.com/terms-cookies"
-                                                              target="_blank"
-                                                              className="footer-link">Cookies &amp;
-                        Analytics</a></div>
-                    <div className="footer-copyrights">© 2011 - 2019, Tipser AB</div>
+                <div className="footer-logo">
+                    <Link className="tipser-logo" to="/">
+                        <img src={logo} alt="tipser logo" />
+                    </Link>
+                </div>
+                <div className="footer-links ">
+                    <a href="https://www.tipser.com/terms" target="_blank" className="footer-link">
+                        Conditions of Use and Sale
+                    </a>
+                    <a href="https://www.tipser.com/terms-privacy" target="_blank" className="footer-link">
+                        Privacy notice
+                    </a>
+                    <a href="https://www.tipser.com/imprint" target="_blank" className="footer-link">
+                        Imprint
+                    </a>
+                    <a href="https://www.tipser.com/terms-cookies" target="_blank" className="footer-link">
+                        Cookies &amp; Analytics
+                    </a>
+                </div>
+                <div className="footer-copyrights">© 2011 - 2019, Tipser AB</div>
                 {/*</div>*/}
             </footer>
         );

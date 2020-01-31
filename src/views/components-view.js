@@ -17,6 +17,9 @@ export class ComponentsView extends React.Component {
                     <h2 className="heading">Collection</h2>
                     <Collection collectionId="5b1a709d9d25800ff0e9a314" />
 
+                    {/* Inserting a collection with a carousel */}
+                    <h2 className="heading">Collection with carousel</h2>
+                    <Collection collectionId="5b9665929d25800a1c9b6b34" carousel />
                     {/* Inserting Store element */}
                     <h2 className="heading">Store</h2>
                     <Store />

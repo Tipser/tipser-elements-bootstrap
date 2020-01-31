@@ -16,9 +16,9 @@ import { ResponsiveProduct } from './views/responsive-product';
 const hashHistory = createHashHistory({ basename: process.env.PUBLIC_URL });
 
 let tipserConfig = {
-    lang: 'en',
+    lang: 'en-US',
     env: 'prod',
-    primaryColor: 'red',
+    primaryColor: '#000000',
     useDefaultErrorHandler: true,
     openOldDialog: true,
     eventsHandlers: {
