@@ -11,7 +11,7 @@ export class ComponentsView extends React.Component {
                 <main>
                     {/* Inserting a product using the productId as prop */}
                     <h2 className="heading">Product</h2>
-                    <Product productId="5c8c3cb257b6a30001357db7" />
+                    <Product productId="5d02459b9bee76000173f122" />
 
                     {/* Inserting a collection using the collectiontId as prop */}
                     <h2 className="heading">Collection</h2>
