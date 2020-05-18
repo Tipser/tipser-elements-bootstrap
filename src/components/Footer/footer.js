@@ -1,6 +1,5 @@
 import * as React from 'react';
 import { Link } from 'react-router-dom';
-import { Cart } from '@tipser/tipser-elements';
 import logo from '../../logo.svg';
 import './footer.css';
 
