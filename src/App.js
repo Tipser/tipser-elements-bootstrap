@@ -20,7 +20,7 @@ let tipserConfig = {
     env: 'dev',
     primaryColor: '#000000',
     useDefaultErrorHandler: true,
-    openOldDialog: true,
+    openOldDialog: false,
     eventsHandlers: {
         onError: error => {
             console.log(error);
