@@ -14,16 +14,16 @@ export class Footer extends React.Component {
                     </Link>
                 </div>
                 <div className="footer-links ">
-                    <a href="https://www.tipser.com/terms" target="_blank" className="footer-link">
+                    <a href="https://www.tipser.com/terms" target="_blank" rel="noopener noreferrer" className="footer-link">
                         Conditions of Use and Sale
                     </a>
-                    <a href="https://www.tipser.com/terms-privacy" target="_blank" className="footer-link">
+                    <a href="https://www.tipser.com/terms-privacy" target="_blank" rel="noopener noreferrer" className="footer-link">
                         Privacy notice
                     </a>
-                    <a href="https://www.tipser.com/imprint" target="_blank" className="footer-link">
+                    <a href="https://www.tipser.com/imprint" target="_blank" rel="noopener noreferrer" className="footer-link">
                         Imprint
                     </a>
-                    <a href="https://www.tipser.com/terms-cookies" target="_blank" className="footer-link">
+                    <a href="https://www.tipser.com/terms-cookies" target="_blank" rel="noopener noreferrer" className="footer-link">
                         Cookies &amp; Analytics
                     </a>
                 </div>
