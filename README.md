@@ -2,7 +2,7 @@ This is an example project showing how to use Tipser Elements components library
 
 [See this page live!](https://tipser.github.io/tipser-elements-react-bootstrap/)
 
-Check the [Tipser Elements Documentation](https://tipser.github.io/docs/#tipser-elements) for reference.
+Check the [Tipser Elements Documentation](https://tipser.dev/docs#tipser-elements) for reference.
 
 ## Running locally
 
