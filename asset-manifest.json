@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/tipser-elements-react-bootstrap/static/css/main.4ae05d9f.chunk.css",
-    "main.js": "/tipser-elements-react-bootstrap/static/js/main.b78a7aee.chunk.js",
-    "main.js.map": "/tipser-elements-react-bootstrap/static/js/main.b78a7aee.chunk.js.map",
+    "main.js": "/tipser-elements-react-bootstrap/static/js/main.774dac87.chunk.js",
+    "main.js.map": "/tipser-elements-react-bootstrap/static/js/main.774dac87.chunk.js.map",
     "runtime-main.js": "/tipser-elements-react-bootstrap/static/js/runtime-main.27fbd226.js",
     "runtime-main.js.map": "/tipser-elements-react-bootstrap/static/js/runtime-main.27fbd226.js.map",
-    "static/css/2.927cd4fd.chunk.css": "/tipser-elements-react-bootstrap/static/css/2.927cd4fd.chunk.css",
-    "static/js/2.46702202.chunk.js": "/tipser-elements-react-bootstrap/static/js/2.46702202.chunk.js",
-    "static/js/2.46702202.chunk.js.map": "/tipser-elements-react-bootstrap/static/js/2.46702202.chunk.js.map",
+    "static/css/2.857b29db.chunk.css": "/tipser-elements-react-bootstrap/static/css/2.857b29db.chunk.css",
+    "static/js/2.61f7445f.chunk.js": "/tipser-elements-react-bootstrap/static/js/2.61f7445f.chunk.js",
+    "static/js/2.61f7445f.chunk.js.map": "/tipser-elements-react-bootstrap/static/js/2.61f7445f.chunk.js.map",
     "index.html": "/tipser-elements-react-bootstrap/index.html",
-    "precache-manifest.c77f1f5db9661b1715b96b2dbdbb9781.js": "/tipser-elements-react-bootstrap/precache-manifest.c77f1f5db9661b1715b96b2dbdbb9781.js",
+    "precache-manifest.08382af985e3e171871141844120f4e1.js": "/tipser-elements-react-bootstrap/precache-manifest.08382af985e3e171871141844120f4e1.js",
     "service-worker.js": "/tipser-elements-react-bootstrap/service-worker.js",
-    "static/css/2.927cd4fd.chunk.css.map": "/tipser-elements-react-bootstrap/static/css/2.927cd4fd.chunk.css.map",
+    "static/css/2.857b29db.chunk.css.map": "/tipser-elements-react-bootstrap/static/css/2.857b29db.chunk.css.map",
     "static/css/main.4ae05d9f.chunk.css.map": "/tipser-elements-react-bootstrap/static/css/main.4ae05d9f.chunk.css.map",
-    "static/js/2.46702202.chunk.js.LICENSE": "/tipser-elements-react-bootstrap/static/js/2.46702202.chunk.js.LICENSE",
+    "static/js/2.61f7445f.chunk.js.LICENSE": "/tipser-elements-react-bootstrap/static/js/2.61f7445f.chunk.js.LICENSE",
     "static/media/logo.svg": "/tipser-elements-react-bootstrap/static/media/logo.03714909.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.27fbd226.js",
-    "static/css/2.927cd4fd.chunk.css",
-    "static/js/2.46702202.chunk.js",
+    "static/css/2.857b29db.chunk.css",
+    "static/js/2.61f7445f.chunk.js",
     "static/css/main.4ae05d9f.chunk.css",
-    "static/js/main.b78a7aee.chunk.js"
+    "static/js/main.774dac87.chunk.js"
   ]
 }
