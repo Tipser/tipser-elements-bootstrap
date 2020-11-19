@@ -6,7 +6,7 @@
 
 /*!
    * Switch to @tipser/tipser-sdk npm module if possible!
-   * This is a Tipser-SDK static bundle, version: 2.2.48
+   * This is a Tipser-SDK static bundle, version: 2.2.50
    */
 
 /*!
@@ -49,6 +49,14 @@
      Contributions by leeoniya.
      License: MIT, header required.
      */
+
+/*!
+  * JavaScript Cookie v2.2.1
+  * https://github.com/js-cookie/js-cookie
+  *
+  * Copyright 2006, 2015 Klaus Hartl & Fagner Brack
+  * Released under the MIT license
+  */
 
 /*
 object-assign
