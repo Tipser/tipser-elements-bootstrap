@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/tipser-elements-react-bootstrap/precache-manifest.d788708c2fcc9f62004d0e88b4e5f47a.js"
+  "/tipser-elements-react-bootstrap/precache-manifest.19e58ab5f125a065c90328a6bc8fce93.js"
 );
 
 self.addEventListener('message', (event) => {
