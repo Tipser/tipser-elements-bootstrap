@@ -2,25 +2,25 @@ import React, { Component } from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import { Route, Switch } from 'react-router';
 import { createHashHistory } from 'history';
-import { TipserElementsProvider } from '@tipser/tipser-elements';
+import { TipserElementsProvider, TipserLang, TipserEnv } from '@tipser/tipser-elements';
 
 import { ComponentsView } from './views/components-view';
 import { ProductView } from './views/product-view';
 import { NotFoundView } from './views/not-found-view';
 import { PageView } from './views/page-view';
+import { ResponsiveProduct } from './views/responsive-product';
 
 import '@tipser/tipser-elements/dist/index.css';
 import './App.css';
-import { ResponsiveProduct } from './views/responsive-product';
 
 const hashHistory = createHashHistory({ basename: process.env.PUBLIC_URL });
 
 let tipserConfig = {
-    lang: 'en-US',
-    env: 'dev',
+    lang: TipserLang.enUS,
+    env: TipserEnv.dev,
     primaryColor: '#000000',
-    useDefaultErrorHandler: true,
     openOldDialog: false,
+    openOldCheckout: false,
     eventsHandlers: {
         onError: error => {
             console.log(error);
