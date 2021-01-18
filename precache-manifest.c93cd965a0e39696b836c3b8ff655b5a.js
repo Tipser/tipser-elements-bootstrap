@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1aefa5b6eb0524e2b8e7e78f3c5ebe5a",
+    "revision": "f8bc115ff3e11f5897824345e4678a57",
     "url": "/tipser-elements-react-bootstrap/index.html"
   },
   {
-    "revision": "6f53d70a6c8ad1d2c6d1",
-    "url": "/tipser-elements-react-bootstrap/static/css/2.ae5b1b0a.chunk.css"
+    "revision": "5e6d24d9ebb2ab8135fc",
+    "url": "/tipser-elements-react-bootstrap/static/css/2.2a48c17e.chunk.css"
   },
   {
     "revision": "7ef122e622628154de5a",
     "url": "/tipser-elements-react-bootstrap/static/css/main.79ae9155.chunk.css"
   },
   {
-    "revision": "6f53d70a6c8ad1d2c6d1",
-    "url": "/tipser-elements-react-bootstrap/static/js/2.e77cc7e9.chunk.js"
+    "revision": "5e6d24d9ebb2ab8135fc",
+    "url": "/tipser-elements-react-bootstrap/static/js/2.669cf269.chunk.js"
   },
   {
     "revision": "44c2c008ad4aab90ba46c1a3a90e4fed",
-    "url": "/tipser-elements-react-bootstrap/static/js/2.e77cc7e9.chunk.js.LICENSE"
+    "url": "/tipser-elements-react-bootstrap/static/js/2.669cf269.chunk.js.LICENSE"
   },
   {
     "revision": "7ef122e622628154de5a",
