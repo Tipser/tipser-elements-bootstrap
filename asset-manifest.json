@@ -6,20 +6,20 @@
     "runtime-main.js": "/tipser-elements-react-bootstrap/static/js/runtime-main.27fbd226.js",
     "runtime-main.js.map": "/tipser-elements-react-bootstrap/static/js/runtime-main.27fbd226.js.map",
     "static/css/2.9ddb3704.chunk.css": "/tipser-elements-react-bootstrap/static/css/2.9ddb3704.chunk.css",
-    "static/js/2.8f7e9df1.chunk.js": "/tipser-elements-react-bootstrap/static/js/2.8f7e9df1.chunk.js",
-    "static/js/2.8f7e9df1.chunk.js.map": "/tipser-elements-react-bootstrap/static/js/2.8f7e9df1.chunk.js.map",
+    "static/js/2.06d3cd1c.chunk.js": "/tipser-elements-react-bootstrap/static/js/2.06d3cd1c.chunk.js",
+    "static/js/2.06d3cd1c.chunk.js.map": "/tipser-elements-react-bootstrap/static/js/2.06d3cd1c.chunk.js.map",
     "index.html": "/tipser-elements-react-bootstrap/index.html",
-    "precache-manifest.7add8961002ba5ddd42a43f6656fec03.js": "/tipser-elements-react-bootstrap/precache-manifest.7add8961002ba5ddd42a43f6656fec03.js",
+    "precache-manifest.c324610fae0bc0350239b7ec0b40f399.js": "/tipser-elements-react-bootstrap/precache-manifest.c324610fae0bc0350239b7ec0b40f399.js",
     "service-worker.js": "/tipser-elements-react-bootstrap/service-worker.js",
     "static/css/2.9ddb3704.chunk.css.map": "/tipser-elements-react-bootstrap/static/css/2.9ddb3704.chunk.css.map",
     "static/css/main.79ae9155.chunk.css.map": "/tipser-elements-react-bootstrap/static/css/main.79ae9155.chunk.css.map",
-    "static/js/2.8f7e9df1.chunk.js.LICENSE": "/tipser-elements-react-bootstrap/static/js/2.8f7e9df1.chunk.js.LICENSE",
+    "static/js/2.06d3cd1c.chunk.js.LICENSE": "/tipser-elements-react-bootstrap/static/js/2.06d3cd1c.chunk.js.LICENSE",
     "static/media/logo.svg": "/tipser-elements-react-bootstrap/static/media/logo.03714909.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.27fbd226.js",
     "static/css/2.9ddb3704.chunk.css",
-    "static/js/2.8f7e9df1.chunk.js",
+    "static/js/2.06d3cd1c.chunk.js",
     "static/css/main.79ae9155.chunk.css",
     "static/js/main.3f7a78f9.chunk.js"
   ]
