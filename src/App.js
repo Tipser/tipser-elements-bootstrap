@@ -17,10 +17,9 @@ const hashHistory = createHashHistory({ basename: process.env.PUBLIC_URL });
 
 let tipserConfig = {
     lang: TipserLang.enUS,
-    env: TipserEnv.dev,
+    env: TipserEnv.prod,
     primaryColor: '#000000',
     openOldDialog: false,
-    openOldCheckout: false,
     eventsHandlers: {
         onError: error => {
             console.log(error);
