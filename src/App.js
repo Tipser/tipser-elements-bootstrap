@@ -4,10 +4,7 @@ import { Route, Switch } from 'react-router';
 import { TipserElementsProvider, Checkout, TipserLang, TipserEnv ,ModularCheckout, useCheckoutContext} from '@tipser/tipser-elements';
 
 import { ComponentsView } from './views/components-view';
-import { ProductView } from './views/product-view';
 import { NotFoundView } from './views/not-found-view';
-import { PageView } from './views/page-view';
-import { ResponsiveProduct } from './views/responsive-product';
 
 import '@tipser/tipser-elements/dist/index.css';
 import './App.css';
@@ -60,9 +57,6 @@ class App extends Component {
             <TipserElementsProvider posId={'5b35f9419d25801a7ce45e03'} config={tipserConfig} >
                 <BrowserRouter>
                     <Switch>
-                        <Route path="/responsiveness" component={ResponsiveProduct} />
-                        <Route path="/product/:productId" component={ProductView} />
-                        <Route path="/page/:pageId" component={PageView} />
                         <Route path="/checkout" component={Checkout} />
                         <Route path="/confirmation">
                             <ModularCheckout>
