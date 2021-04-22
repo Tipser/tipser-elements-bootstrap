@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import { Route, Switch } from 'react-router';
-import { createHashHistory } from 'history';
-import { TipserElementsProvider, TipserLang, TipserEnv } from '@tipser/tipser-elements';
+import { TipserElementsProvider, Checkout, TipserLang, TipserEnv ,ModularCheckout, useCheckoutContext} from '@tipser/tipser-elements';
 
 import { ComponentsView } from './views/components-view';
 import { ProductView } from './views/product-view';
@@ -13,13 +12,16 @@ import { ResponsiveProduct } from './views/responsive-product';
 import '@tipser/tipser-elements/dist/index.css';
 import './App.css';
 
-const hashHistory = createHashHistory({ basename: process.env.PUBLIC_URL });
-
 let tipserConfig = {
     lang: TipserLang.enUS,
-    env: TipserEnv.prod,
+    env: TipserEnv.stage,
     primaryColor: '#000000',
     openOldDialog: false,
+    enableCheckoutV2: true,
+    customUrls: {
+        checkoutUrl: '/checkout',
+        checkoutConfirmationUrl: '/confirmation',
+    },
     eventsHandlers: {
         onError: error => {
             console.log(error);
@@ -31,15 +33,44 @@ let tipserConfig = {
     },
 };
 
+const CustomConfirmationPage = () => {
+    const checkoutContext = useCheckoutContext();
+
+    console.log('checkoutContext = ', checkoutContext);
+
+    if (!checkoutContext || !checkoutContext.checkout) {
+        return null;
+    }
+    const { firstName, lastName } = checkoutContext.checkout.deliveryDetails;
+    const totalPrice = checkoutContext.checkout.totals.checkout.total.prices.finalPrice.incTax.formatted;
+    return (
+        <div>
+            <div>Your checkout is complete!</div>
+            <div>
+                Recipient: {firstName} {lastName}
+            </div>
+            <div>Total price paid: {totalPrice}</div>
+        </div>
+    );
+};
+
 class App extends Component {
     render() {
         return (
-            <TipserElementsProvider posId={'59e86b79b8f3f60a94ecd26a'} config={tipserConfig} sentryEnv="frontend_dev">
-                <BrowserRouter history={hashHistory}>
+            <TipserElementsProvider posId={'5b35f9419d25801a7ce45e03'} config={tipserConfig} >
+                <BrowserRouter>
                     <Switch>
                         <Route path="/responsiveness" component={ResponsiveProduct} />
                         <Route path="/product/:productId" component={ProductView} />
                         <Route path="/page/:pageId" component={PageView} />
+                        <Route path="/checkout" component={Checkout} />
+                        <Route path="/confirmation">
+                            <ModularCheckout>
+                                <ModularCheckout.Confirmed>
+                                    <CustomConfirmationPage />
+                                </ModularCheckout.Confirmed>
+                            </ModularCheckout>
+                        </Route>
                         <Route path="/" component={ComponentsView} />
                         <Route component={NotFoundView} />
                     </Switch>
