@@ -1,36 +1,40 @@
 {
-    "name": "tipser-elements-bootstrap",
-    "version": "0.1.0",
-    "private": true,
-    "homepage": "https://tipser.github.io/tipser-elements-react-bootstrap",
-    "dependencies": {
-        "@tipser/tipser-elements": "^2.3.24",
-        "gh-pages": "^2.0.1",
-        "history": "^4.10.1",
-        "prettier": "^1.19.1",
-        "react": "^16.8.4",
-        "react-dom": "^16.8.4",
-        "react-router": "^4.3.1",
-        "react-router-dom": "^4.3.1",
-        "react-scripts": "^3.3.0"
-    },
-    "scripts": {
-        "start": "react-scripts start",
-        "build": "react-scripts build",
-        "test": "react-scripts test",
-        "eject": "react-scripts eject",
-        "predeploy": "npm run build",
-        "deploy": "gh-pages -d build",
-        "format": "prettier --list-different 'src/**/*.{js,ts,tsx,json,less}'",
-        "format-fix": "prettier --write 'src/**/*.{js,ts,tsx,json,less}'"
-    },
-    "eslintConfig": {
-        "extends": "react-app"
-    },
-    "browserslist": [
-        ">0.2%",
-        "not dead",
-        "not ie <= 11",
-        "not op_mini all"
-    ]
+  "name": "tipser-elements-bootstrap",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://tipser.github.io/tipser-elements-react-bootstrap",
+  "dependencies": {
+    "@tipser/tipser-elements": "^2.3.24",
+    "gh-pages": "^2.0.1",
+    "history": "^4.10.1",
+    "prettier": "^1.19.1",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "^5.0.0",
+    "@snyk/protect": "latest"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "format": "prettier --list-different 'src/**/*.{js,ts,tsx,json,less}'",
+    "format-fix": "prettier --write 'src/**/*.{js,ts,tsx,json,less}'",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "snyk": true
 }
