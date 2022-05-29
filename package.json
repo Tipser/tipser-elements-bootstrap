@@ -5,7 +5,7 @@
     "homepage": "https://tipser.github.io/tipser-elements-react-bootstrap",
     "dependencies": {
         "@tipser/tipser-elements": "^2.3.24",
-        "gh-pages": "^2.0.1",
+        "gh-pages": "^2.2.0",
         "history": "^4.10.1",
         "prettier": "^1.19.1",
         "react": "^16.8.4",
